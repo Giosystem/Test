@@ -1,0 +1,48 @@
+#include <iostream>
+
+using namespace std;
+int main()
+ {
+ //data type variables //
+// cout  //is the standard output stream//
+  float Age;
+  string characterName = "Mike";
+  int characterAge = 35;
+  float character_Age = 4.4;
+  double years = 10000.7;
+  char grade = 'B';
+  bool isOld = false;
+  string phrase = " story ";
+  int wnum = 5;
+
+
+cout <<  phrase.length() << endl;// give you the length of what variable the word phrase equals//
+cout << phrase[4] << endl;;// this gives you the character in this position [4]///
+cout <<  phrase.substr(0, 7) << endl;  // this gives you the phrase starting at position 0 (0, 7) the length of 7 long
+cout << "his name\n was\n " << characterName << endl;// this allows you to end a string line in a string without using endln;//
+cout << " his age was " << characterAge << endl;// sring defined variable characterAge//
+cout << " his grade was " << grade << endl;// char defined variable grade//
+cout << " The year was " << years << endl; //double defined variable year//
+cout << characterName << " considered old " << isOld << endl;//multiple lines printed out on one line//
+
+
+characterName = "James";// this is to change a variable in a later point in the program//
+
+cout << " his name was " << characterName << endl;
+cout << " his age was " << character_Age << endl;
+
+characterName = "George";// this is to change a variable in a later point in the program//
+character_Age = 34.6;// this is to change a variable in a later point in the program//
+cout << " his name was " << characterName << endl;
+cout << " his age was " << character_Age << endl;
+
+cout << 5 + 3 + 1 + 1 + 1 + -wnum -wnum << endl; // add the sum of constants together
+cout << (5 * 3) + (2 * 2) << endl;// more math examples
+cout << (5 * 3) / (2 * 2) <<endl;// more math examples
+wnum++;// ++ adds one to a variable//
+wnum+= 30; //+= add whatever number to the variable//
+cout << wnum;
+
+
+ return 0;
+}
